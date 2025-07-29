@@ -64,7 +64,7 @@ export default function RootLayout({ children }) {
             </div>
           </div>
 
-          <div className="w-full bg-white shadow-sm border-b">
+          <div className="w-full bg-white">
             <div className="max-w-screen-xl mx-auto px-4">
               <div className="flex justify-between items-center py-4">
                 <Link href="/" className="flex items-center space-x-3">
