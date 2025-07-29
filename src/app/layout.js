@@ -14,8 +14,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <nav>
-          <div className="top">
-            <div className="container flex justify-end items-center">
+          <div className="top w-full bg-green-900 text-white">
+            <div className="max-w-screen-xl mx-auto flex justify-end items-center px-16">
               <a href="tel:+2348024316781" className="me-2">
                 +234 802 431 6781
               </a>
@@ -77,7 +77,7 @@ export default function RootLayout({ children }) {
             <div>
               <Link href="/">Home</Link>
               <Link href="/about">About Us</Link>
-              <Link href="/products">Products</Link>
+              <Link href="/product">Products</Link>
               <Image
                 src="/images/vector.png"
                 width={11}
@@ -85,10 +85,10 @@ export default function RootLayout({ children }) {
                 alt="dropdown arrow"
               />
               <div>
-                <Link href="/products/livestock">Livestock</Link>
-                <Link href="/products/crops">Crops</Link>
-                <Link href="/products/poultry">Poultry</Link>
-                <Link href="/products/fishes">Fishes</Link>
+                <Link href="/product/livestock">Livestock</Link>
+                <Link href="/product/crops">Crops</Link>
+                <Link href="/product/poultry">Poultry</Link>
+                <Link href="/product/fishes">Fishes</Link>
               </div>
               <Link href="/contact">Contact</Link>
             </div>
