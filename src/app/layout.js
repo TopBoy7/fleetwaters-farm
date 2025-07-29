@@ -105,7 +105,7 @@ export default function RootLayout({ children }) {
                   <input
                     type="text"
                     placeholder="Search..."
-                    className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    className="px-4 py-2 border rounded-lg focus:outline-none"
                   />
                 </div>
               </div>
@@ -115,9 +115,7 @@ export default function RootLayout({ children }) {
 
         {children}
 
-        <footer className="bg-gray-800 text-white py-8">
-          {/* Add footer content here */}
-        </footer>
+        <footer>{/* Add footer content here */}</footer>
       </body>
     </html>
   );
