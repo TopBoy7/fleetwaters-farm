@@ -115,7 +115,148 @@ export default function RootLayout({ children }) {
 
         {children}
 
-        <footer>{/* Add footer content here */}</footer>
+        <footer className="bg-gray-100 py-12">
+          <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-2">
+            <div className="px-2">
+              <div className="flex items-center space-x-2 mb-4">
+                <Image
+                  src="/images/fleetfarms.png"
+                  width={45}
+                  height={45}
+                  alt="Fleetwaters Farm Logo"
+                />
+                <span className="text-green-900 font-semibold">
+                  Fleetwaters Farms
+                </span>
+              </div>
+
+              <p className="text-gray-600 max-w-sm">
+                Seeking the best agricultural products? Reach out to us at
+                Fleetwaters today and get unmatched quality.
+              </p>
+
+              <div className="flex space-x-2 mt-4">
+                <a
+                  href="https://x.com/fleetwatersfarm"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    src="/images/x-solid.png"
+                    width={16}
+                    height={16}
+                    alt="x"
+                  />
+                </a>
+                <a
+                  href="https://instagram.com/fleetwatersfarm"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    src="/images/instagram-solid.png"
+                    width={16}
+                    height={16}
+                    alt="instagram"
+                  />
+                </a>
+                <a
+                  href="https://wa.me/2348024316781"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    src="/images/whatsapp-solid.png"
+                    width={16}
+                    height={16}
+                    alt="whatsapp"
+                  />
+                </a>
+                <a
+                  href="https://facebook.com/fleetwatersfarm"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    src="/images/facebook-solid.png"
+                    width={16}
+                    height={16}
+                    alt="facebook"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div className="px-3">
+              <h6 className="text-gray-700 font-semibold mb-3">Quick Links</h6>
+              <ul className="space-y-2 text-gray-600">
+                <li>
+                  <Link href="/about">About Us</Link>
+                </li>
+                <li>
+                  <Link href="/product">Products</Link>
+                </li>
+                <li>
+                  <Link href="/product/livestock">Livestock</Link>
+                </li>
+                <li>
+                  <Link href="/contact">Contact Us</Link>
+                </li>
+              </ul>
+            </div>
+
+            <div className="px-3">
+              <h6 className="text-gray-700 font-semibold mb-3">Other Pages</h6>
+              <ul className="space-y-2 text-gray-600">
+                <li>
+                  <Link href="/">Privacy Policy</Link>
+                </li>
+                <li>
+                  <Link href="/product">Products</Link>
+                </li>
+                <li>
+                  <Link href="/">Terms of Use</Link>
+                </li>
+                <li>
+                  <Link href="/">FAQ</Link>
+                </li>
+              </ul>
+            </div>
+
+            <div className="px-3">
+              <h6 className="text-gray-700 font-semibold mb-3">Contact Info</h6>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-center space-x-2">
+                  <Image
+                    src="/images/location.png"
+                    width={16}
+                    height={16}
+                    alt="location"
+                  />
+                  <span>The Fleetwaters farms, off Ajah, Lagos, Nigeria</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <Image
+                    src="/images/call.png"
+                    width={16}
+                    height={16}
+                    alt="phone"
+                  />
+                  <span>+2348024316781</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <Image
+                    src="/images/email.png"
+                    width={16}
+                    height={16}
+                    alt="email"
+                  />
+                  <span>info@fleetwatersfarm.com</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
       </body>
     </html>
   );

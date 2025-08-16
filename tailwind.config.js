@@ -8,9 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: ({ opacityVariable, opacityValue }) =>
+          `rgba(var(--background), ${
+            opacityValue !== undefined ? opacityValue : 1
+          })`,
+        foreground: ({ opacityVariable, opacityValue }) =>
+          `rgba(var(--foreground), ${
+            opacityValue !== undefined ? opacityValue : 1
+          })`,
         lightGray: "#f3f3f3",
+        ftGray: "#ebebeb",
       },
     },
   },
