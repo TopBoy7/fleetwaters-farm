@@ -10,7 +10,7 @@ export default function Navbar() {
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-1 text-gray-700 hover:text-green-600 font-medium"
+        className="flex items-center space-x-1 text-gray-600 hover:text-green-900 font-medium"
       >
         <span>Products</span>
         <svg

@@ -74,7 +74,7 @@ export default function RootLayout({ children }) {
                     height={45}
                     alt="Fleetwaters Farm Logo"
                   />
-                  <span className="text-xl font-semibold text-gray-800">
+                  <span className=" text-green-900 font-medium">
                     Fleetwaters Farms
                   </span>
                 </Link>
@@ -82,30 +82,30 @@ export default function RootLayout({ children }) {
                 <div className="hidden md:flex items-center space-x-8">
                   <Link
                     href="/"
-                    className="text-gray-700 hover:text-green-600 font-medium"
+                    className="text-gray-600 hover:text-green-900 font-medium"
                   >
                     Home
                   </Link>
                   <Link
                     href="/about"
-                    className="text-gray-700 hover:text-green-600 font-medium"
+                    className="text-gray-600 hover:text-green-900 font-medium"
                   >
                     About Us
                   </Link>
                   <Navbar />
                   <Link
                     href="/contact"
-                    className="text-gray-700 hover:text-green-600 font-medium"
+                    className="text-gray-600 hover:text-green-900 font-medium"
                   >
                     Contact
                   </Link>
                 </div>
 
-                <div className="hidden md:block">
+                <div className="bg-gray-100 rounded-xl hidden md:block">
                   <input
                     type="text"
-                    placeholder="Search..."
-                    className="px-4 py-2 border rounded-lg focus:outline-none"
+                    placeholder="Search"
+                    className="px-4 py-2  focus:outline-none"
                   />
                 </div>
               </div>
