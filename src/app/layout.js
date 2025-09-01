@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <nav>
-          <div className="w-full bg-green-900 text-white py-2">
+          <div className="w-full bg-green-900 text-white py-2 px-24">
             <div className="max-w-screen-xl mx-auto flex justify-end items-center px-4 space-x-4">
               <a
                 href="tel:+2348024316781"
@@ -64,7 +64,7 @@ export default function RootLayout({ children }) {
             </div>
           </div>
 
-          <div className="w-full bg-white">
+          <div className="w-full bg-white px-24">
             <div className="max-w-screen-xl mx-auto px-4">
               <div className="flex justify-between items-center py-4">
                 <Link href="/" className="flex items-center space-x-3">
@@ -115,7 +115,7 @@ export default function RootLayout({ children }) {
 
         {children}
 
-        <footer className="bg-gray-100 py-12">
+        <footer className="bg-gray-100 py-12 px-24">
           <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-2">
             <div className="px-2">
               <div className="flex items-center space-x-2 mb-4">
