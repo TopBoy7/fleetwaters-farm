@@ -38,7 +38,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="my-8 mx-10">
+      <div className="my-8 mx-10 bg-[url('/images/Products.png')] bg-center bg-no-repeat bg-cover">
         <div className="px-16 py-8">
           <div className="flex flex-col md:flex-row items-center">
             {/* Left side: Text */}
