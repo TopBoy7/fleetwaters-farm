@@ -55,7 +55,13 @@ export default function Home() {
             </div>
 
             {/* Right side: Image */}
-            <div className="w-full md:w-1/2 flex justify-center p-8">
+            <div className="w-full md:w-1/2 flex justify-center p-8 relative">
+              <Image
+                src="/images/circles.png"
+                alt="circles"
+                className="absolute top-0 right-0"
+                priority
+              />
               <div className="relative w-80 h-80 md:w-[400px] md:h-[350px]">
                 <Image
                   src="/images/gardner.png"
