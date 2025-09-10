@@ -3,7 +3,6 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    //push
     <>
       <div className="relative h-[85vh] w-full">
         <Image
@@ -41,7 +40,6 @@ export default function Home() {
       <div className="my-8 mx-10 bg-[url('/images/Products.png')] bg-center bg-no-repeat bg-cover">
         <div className="px-16 py-8">
           <div className="flex flex-col md:flex-row items-center">
-            {/* Left side: Text */}
             <div className="w-full md:w-1/2 pl-12">
               <h4 className="text-2xl font-semibold text-green-900">
                 About Us
@@ -54,14 +52,18 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Right side: Image */}
             <div className="w-full md:w-1/2 flex justify-center p-8 relative">
-              <Image
-                src="/images/circles.png"
-                alt="circles"
-                className="absolute top-0 right-0"
-                priority
-              />
+              <div className="absolute top-0 right-0 z-50">
+                <Image
+                  src="/images/circles.png"
+                  alt="dots"
+                  width={100}
+                  height={100}
+                  className="object-contain"
+                  priority
+                />
+              </div>
+
               <div className="relative w-80 h-80 md:w-[400px] md:h-[350px]">
                 <Image
                   src="/images/gardner.png"
@@ -72,6 +74,69 @@ export default function Home() {
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h1>Why choose Fleetwater Farm</h1>
+        <p>
+          At Fleetwaters, one of our biggest goals is to ensure the Food
+          production process is efficient for quality farming practices with
+          minimal impact on the environment while delivering healthy products to
+          our consumers.
+        </p>
+        <div>
+          <div>
+            <div>
+              <Image
+                src="/images/leaf.png"
+                alt="dots"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+
+            <h2>100% organic products</h2>
+            <p>
+              All our products are organically grown and groomed with the best
+              materials that ensure our clients are left satisfied.
+            </p>
+          </div>
+          <div>
+            <div>
+              <Image
+                src="/images/check.png"
+                alt="dots"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+
+            <h2>Quality Standard</h2>
+            <p>
+              We ensure our products are top quality and meet the required
+              standards set by agricultural boards.
+            </p>
+          </div>
+          <div>
+            <div>
+              <Image
+                src="/images/delivery.png"
+                alt="dots"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+
+            <h2>Nationwide Delivery</h2>
+            <p>
+              Fleetwaters farms deliver nationwide across states in Nigeria and
+              will expand to Africa in the coming years.
+            </p>
           </div>
         </div>
       </div>
