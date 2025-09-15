@@ -92,7 +92,8 @@ export default function Home() {
               <Image
                 src="/images/leaf.png"
                 alt="dots"
-                fill
+                width={50}
+                height={50}
                 className="object-contain"
                 priority
               />
@@ -109,7 +110,8 @@ export default function Home() {
               <Image
                 src="/images/check.png"
                 alt="dots"
-                fill
+                width={50}
+                height={50}
                 className="object-contain"
                 priority
               />
@@ -126,7 +128,8 @@ export default function Home() {
               <Image
                 src="/images/delivery.png"
                 alt="dots"
-                fill
+                width={50}
+                height={50}
                 className="object-contain"
                 priority
               />
