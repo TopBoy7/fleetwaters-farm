@@ -150,14 +150,77 @@ export default function Home() {
 
       <div>
         <div>
-          <h4></h4>
-          <p></p>
+          <h4>Our Products</h4>
+          <p>
+            All our products are organically grown and groomed with the best
+            materials.
+          </p>
           <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>
+              <div>
+                <Image
+                  src="/images/Tmt.png"
+                  alt="tomato"
+                  width={100}
+                  height={100}
+                  className="mx-auto mb-3 object-contain"
+                  priority
+                />
+              </div>
+              <p>Tomato</p>
+            </div>
+            <div>
+              <div>
+                <Image
+                  src="/images/Peppers.png"
+                  alt="pepper"
+                  width={100}
+                  height={100}
+                  className="mx-auto mb-3 object-contain"
+                  priority
+                />
+              </div>
+              <p>Peppers</p>
+            </div>
+            <div>
+              <div>
+                <Image
+                  src="/images/fish.png"
+                  alt="fish"
+                  width={100}
+                  height={100}
+                  className="mx-auto mb-3 object-contain"
+                  priority
+                />
+              </div>
+              <p>Catfish</p>
+            </div>
+            <div>
+              <div>
+                <Image
+                  src="/images/broilers.png"
+                  alt="chicken"
+                  width={100}
+                  height={100}
+                  className="mx-auto mb-3 object-contain"
+                  priority
+                />
+              </div>
+              <p>Broilers</p>
+            </div>
+            <div>
+              <div>
+                <Image
+                  src="/images/cow.png"
+                  alt="cow"
+                  width={100}
+                  height={100}
+                  className="mx-auto mb-3 object-contain"
+                  priority
+                />
+              </div>
+              <p>Livestock</p>
+            </div>
           </div>
         </div>
       </div>
