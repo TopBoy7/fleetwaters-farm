@@ -78,65 +78,72 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
-        <h1>Why choose Fleetwater Farm</h1>
-        <p>
-          At Fleetwaters, one of our biggest goals is to ensure the Food
-          production process is efficient for quality farming practices with
-          minimal impact on the environment while delivering healthy products to
-          our consumers.
-        </p>
-        <div>
-          <div>
-            <div>
+      <div className="mt-[64px] pb-[64px]">
+        <div className="mx-[32px] px-[12px]">
+          <h4 className="w-1/2 mx-auto mb-3 text-center text-2xl font-semibold text-green-900">
+            Why choose Fleetwater Farms?
+          </h4>
+          <p className="w-1/2 mx-auto text-gray-700 text-center mb-[48px]">
+            At Fleetwaters, one of our biggest goals is to ensure the Food
+            production process is efficient for quality farming practices with
+            minimal impact on the environment while delivering healthy products
+            to our consumers.
+          </p>
+
+          <div className="bg-green-900 grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-gray-300">
+            <div className="p-6 text-center">
               <Image
                 src="/images/leaf.png"
-                alt="dots"
-                fill
-                className="object-contain"
+                alt="leaf"
+                width={50}
+                height={50}
+                className="mx-auto mb-3 object-contain"
                 priority
               />
+              <h2 className="text-white text-xl font-semibold mb-3">
+                100% organic products
+              </h2>
+              <p className="text-gray-300 text-sm mb-3">
+                All our products are organically grown and groomed with the best
+                materials that ensure our clients are left satisfied.
+              </p>
             </div>
 
-            <h2>100% organic products</h2>
-            <p>
-              All our products are organically grown and groomed with the best
-              materials that ensure our clients are left satisfied.
-            </p>
-          </div>
-          <div>
-            <div>
+            <div className="p-6 text-center">
               <Image
                 src="/images/check.png"
-                alt="dots"
-                fill
-                className="object-contain"
+                alt="check"
+                width={50}
+                height={50}
+                className="mx-auto mb-3 object-contain"
                 priority
               />
+              <h2 className="text-white text-xl font-semibold mb-3">
+                Quality Standard
+              </h2>
+              <p className="text-gray-300 text-sm mb-3">
+                We ensure our products are top quality and meet the required
+                standards set by agricultural boards.
+              </p>
             </div>
 
-            <h2>Quality Standard</h2>
-            <p>
-              We ensure our products are top quality and meet the required
-              standards set by agricultural boards.
-            </p>
-          </div>
-          <div>
-            <div>
+            <div className="p-6 text-center">
               <Image
                 src="/images/delivery.png"
-                alt="dots"
-                fill
-                className="object-contain"
+                alt="delivery"
+                width={50}
+                height={50}
+                className="mx-auto mb-3 object-contain"
                 priority
               />
+              <h2 className="text-white text-xl font-semibold mb-3">
+                Nationwide Delivery
+              </h2>
+              <p className="text-gray-300 text-sm mb-3">
+                Fleetwaters farms deliver nationwide across states in Nigeria
+                and will expand to Africa in the coming years.
+              </p>
             </div>
-
-            <h2>Nationwide Delivery</h2>
-            <p>
-              Fleetwaters farms deliver nationwide across states in Nigeria and
-              will expand to Africa in the coming years.
-            </p>
           </div>
         </div>
       </div>
