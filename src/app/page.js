@@ -148,16 +148,18 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
-        <div>
-          <h4>Our Products</h4>
-          <p>
+      <div className="py-[64px]">
+        <div className="mx-[32px] px-[12px]">
+          <h4 className="w-1/2 mx-auto mb-3 text-center text-2xl font-semibold text-green-900">
+            Our Products
+          </h4>
+          <p className="w-1/3 mx-auto text-gray-700 text-center mb-[48px]">
             All our products are organically grown and groomed with the best
             materials.
           </p>
-          <div>
-            <div>
-              <div>
+          <div className="grid md:grid-cols-5 ">
+            <div className="bg-white-500 pt-6 px-4 pb-4">
+              <div className="bg-[#fef212]  p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mx-auto mb-3 flex items-center justify-center">
                 <Image
                   src="/images/Tmt.png"
                   alt="tomato"
@@ -167,10 +169,10 @@ export default function Home() {
                   priority
                 />
               </div>
-              <p>Tomato</p>
+              <p className="text-center text-sm">Tomato</p>
             </div>
-            <div>
-              <div>
+            <div className="bg-white pt-6 px-4 pb-4">
+              <div className="bg-[#fef212]  p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mx-auto mb-3 flex items-center justify-center">
                 <Image
                   src="/images/Peppers.png"
                   alt="pepper"
@@ -180,10 +182,10 @@ export default function Home() {
                   priority
                 />
               </div>
-              <p>Peppers</p>
+              <p className="text-center text-sm">Peppers</p>
             </div>
-            <div>
-              <div>
+            <div className="bg-white pt-6 px-4 pb-4">
+              <div className="bg-[#fef212]  p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mx-auto mb-3 flex items-center justify-center">
                 <Image
                   src="/images/fish.png"
                   alt="fish"
@@ -193,10 +195,10 @@ export default function Home() {
                   priority
                 />
               </div>
-              <p>Catfish</p>
+              <p className="text-center text-sm">Catfish</p>
             </div>
-            <div>
-              <div>
+            <div className="bg-white pt-6 px-4 pb-4">
+              <div className="bg-[#fef212]  p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mx-auto mb-3 flex items-center justify-center">
                 <Image
                   src="/images/broilers.png"
                   alt="chicken"
@@ -206,10 +208,10 @@ export default function Home() {
                   priority
                 />
               </div>
-              <p>Broilers</p>
+              <p className="text-center text-sm">Broilers</p>
             </div>
-            <div>
-              <div>
+            <div className="bg-white pt-6 px-4 pb-4">
+              <div className="bg-[#fef212]  p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mx-auto mb-3 flex items-center justify-center">
                 <Image
                   src="/images/cow.png"
                   alt="cow"
@@ -219,7 +221,7 @@ export default function Home() {
                   priority
                 />
               </div>
-              <p>Livestock</p>
+              <p className="text-center text-sm">Livestock</p>
             </div>
           </div>
         </div>
