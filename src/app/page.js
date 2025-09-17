@@ -158,67 +158,72 @@ export default function Home() {
               All our products are organically grown and groomed with the best
               materials.
             </p>
-            <div className="grid md:grid-cols-5 gap-6  px-[64px]">
-              <div className=" bg-white pt-6 px-4 pb-4 rounded-3xl outline outline-gray-300">
-                <div className="  bg-[#fef212]  p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mx-auto mb-3 flex items-center justify-center">
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 px-[32px] md:px-[64px]">
+              <div className="bg-white pt-6 px-4 pb-4 rounded-3xl outline outline-gray-300 flex flex-col items-center">
+                <div className="bg-[#fef212] p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mb-3 flex items-center justify-center">
                   <Image
                     src="/images/Tmt.png"
                     alt="tomato"
                     width={100}
                     height={100}
-                    className="mx-auto mb-3 object-contain"
+                    className="object-contain"
                     priority
                   />
                 </div>
                 <p className="text-center text-sm">Tomato</p>
               </div>
-              <div className="bg-white pt-6 px-4 pb-4 rounded-3xl outline outline-gray-300">
-                <div className="bg-[#fef212]  p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mx-auto mb-3 flex items-center justify-center">
+
+              <div className="bg-white pt-6 px-4 pb-4 rounded-3xl outline outline-gray-300 flex flex-col items-center">
+                <div className="bg-[#fef212] p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mb-3 flex items-center justify-center">
                   <Image
                     src="/images/Peppers.png"
                     alt="pepper"
                     width={100}
                     height={100}
-                    className="mx-auto mb-3 object-contain"
+                    className="object-contain"
                     priority
                   />
                 </div>
                 <p className="text-center text-sm">Peppers</p>
               </div>
-              <div className="bg-white pt-6 px-4 pb-4 rounded-3xl outline outline-gray-300">
-                <div className="bg-[#fef212]  p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mx-auto mb-3 flex items-center justify-center">
+
+              <div className="bg-white pt-6 px-4 pb-4 rounded-3xl outline outline-gray-300 flex flex-col items-center">
+                <div className="bg-[#fef212] p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mb-3 flex items-center justify-center">
                   <Image
                     src="/images/fish.png"
                     alt="fish"
                     width={100}
                     height={100}
-                    className="mx-auto mb-3 object-contain"
+                    className="object-contain"
                     priority
                   />
                 </div>
                 <p className="text-center text-sm">Catfish</p>
               </div>
-              <div className="bg-white pt-6 px-4 pb-4 rounded-3xl outline outline-gray-300">
-                <div className="bg-[#fef212]  p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mx-auto mb-3 flex items-center justify-center">
+
+              <div className="bg-white pt-6 px-4 pb-4 rounded-3xl outline outline-gray-300 flex flex-col items-center">
+                <div className="bg-[#fef212] p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mb-3 flex items-center justify-center">
                   <Image
                     src="/images/broilers.png"
                     alt="chicken"
                     width={100}
                     height={100}
-                    className="mx-auto mb-3 object-contain"
+                    className="object-contain"
                     priority
                   />
                 </div>
                 <p className="text-center text-sm">Broilers</p>
               </div>
-              <div className="bg-white pt-6 px-4 pb-4 rounded-3xl outline outline-gray-300">
-                <div className="bg-[#fef212]  p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mx-auto mb-3 flex items-center justify-center">
+
+              <div className="bg-white pt-6 px-4 pb-4 rounded-3xl outline outline-gray-300 flex flex-col items-center">
+                <div className="bg-[#fef212] p-4 rounded-full outline outline-1 outline-orange-500 w-40 h-40 mb-3 flex items-center justify-center">
                   <Image
                     src="/images/cow.png"
                     alt="cow"
                     width={100}
                     height={100}
-                    className="mx-auto mb-3 object-contain"
+                    className="object-contain"
                     priority
                   />
                 </div>
@@ -226,6 +231,25 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <h4>Subscribe to our newsletter</h4>
+          <p>
+            Get spicy updates on the latests African meals, recipes, fruits and
+            much more.
+          </p>
+        </div>
+        <div>
+          <Image
+            src="/images/farm-girl.png"
+            alt="farm girl"
+            fill
+            className="object-contain"
+            priority
+          />
         </div>
       </div>
     </>
