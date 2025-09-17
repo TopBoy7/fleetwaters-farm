@@ -243,13 +243,13 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <Image
+          {/* <Image
             src="/images/farm-girl.png"
             alt="farm girl"
             fill
             className="object-contain"
             priority
-          />
+          /> */}
         </div>
       </div>
     </>
