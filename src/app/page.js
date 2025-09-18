@@ -241,6 +241,10 @@ export default function Home() {
             Get spicy updates on the latests African meals, recipes, fruits and
             much more.
           </p>
+          <div>
+            <input type="email" placeholder="Enter your email" />
+            <button>Subscribe</button>
+          </div>
         </div>
         <div>
           <Image
