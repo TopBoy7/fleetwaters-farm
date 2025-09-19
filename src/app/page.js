@@ -244,17 +244,26 @@ export default function Home() {
               Get spicy updates on the latests African meals, recipes, fruits
               and much more.
             </p>
-            <div>
-              <input type="email" placeholder="Your Email Address" />
-              <button>
+            <div className="relative w-[70%]">
+              <input
+                type="email"
+                placeholder="Your E-mail Address"
+                className="w-full bg-white text-[#121212] rounded-[32px] py-[0.7rem] px-[1.5rem] pr-12 border-none text-sm outline-none"
+              />
+              <button
+                type="submit"
+                className="absolute right-4 top-1/2 -translate-y-1/2 bg-[#04491d] rounded-full p-1 text-white"
+              >
                 <svg
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium arrow css-vubbuv"
+                  className="w-5 h-5 text-white"
                   focusable="false"
                   aria-hidden="true"
                   viewBox="0 0 24 24"
-                  data-testid="ArrowForwardOutlinedIcon"
                 >
-                  <path d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                  <path
+                    d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                    fill="currentColor"
+                  ></path>
                 </svg>
               </button>
             </div>
