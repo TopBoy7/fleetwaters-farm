@@ -234,22 +234,34 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
-        <div>
-          <h4>Subscribe to our newsletter</h4>
-          <p>
-            Get spicy updates on the latests African meals, recipes, fruits and
-            much more.
-          </p>
-        </div>
-        <div>
-          {/* <Image
-            src="/images/farm-girl.png"
-            alt="farm girl"
-            fill
-            className="object-contain"
-            priority
-          /> */}
+      <div className="mx-[90px] px-[96px] pt-[64px] pb-[32px]">
+        <div className="flex flex-col md:flex-row">
+          <div className="p-[48px] bg-[#04491d] text-white flex-1 justify-center">
+            <h4 className="mb-3 w-3/5 text-2xl font-bold">
+              Subscribe to our newsletter
+            </h4>
+            <p className="mb-4 w-[65%] text-sm">
+              Get spicy updates on the latests African meals, recipes, fruits
+              and much more.
+            </p>
+            <div>
+              <input type="email" placeholder="Your Email Address" />
+              <button>
+                <svg
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium arrow css-vubbuv"
+                  focusable="false"
+                  aria-hidden="true"
+                  viewBox="0 0 24 24"
+                  data-testid="ArrowForwardOutlinedIcon"
+                >
+                  <path d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div className="flex-1 h-75 w-full relative ">
+            <Image src="/images/farm-girl.png" alt="farm girl" fill priority />
+          </div>
         </div>
       </div>
     </>
