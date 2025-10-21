@@ -4,13 +4,14 @@ import ProductDetailsPage from "@/app/components/productDetailsPage";
 const products = {
   livestock: {
     title: "Livestock",
-    subtitle: "We offer quality livestock for your farming needs.",
+    subtitle:
+      "We offer quality livestock products available for pickup or delivery.",
     description: `Livestock are the domesticated animals raised in an agricultural setting in order to provide labour and produce diversified products for consumption such as meat, eggs, milk, fur, leather, and wool. The term is sometimes used to refer solely to animals who are raised for consumption, and sometimes used to refer solely to farmed ruminants, such as cattle, sheep, and goats.[1] Horses are considered livestock in the United States.[2] The USDA classifies pork, veal, beef, and lamb (mutton) as livestock, and all livestock as red meat. Poultry and fish are not included in the category.[3] The latter is likely due to the fact that fish products are not governed by the USDA, but by the FDA.
 
 The breeding, maintenance, slaughter and general subjugation of livestock, called animal husbandry, is a part of modern agriculture and has been practiced in many cultures since humanity's transition to farming from hunter-gatherer lifestyles. Animal husbandry practices have varied widely across cultures and time periods. It continues to play a major economic and cultural role in numerous communities.
 
 Livestock farming practices have largely shifted to intensive animal farming. [4] Intensive animal farming increases the yield of the various commercial outputs, but also negatively impacts animal welfare, the environment, and public health.[5] In particular, beef, dairy and sheep are an outsized source of greenhouse gas emissions from agriculture.`,
-    bgImage: "/images/livestock.png",
+    bgImage: "/images/livestock.jpg",
     subImages: [
       { src: "/images/cow.png", title: "Cow" },
       { src: "/images/pigs.png", title: "Pig" },

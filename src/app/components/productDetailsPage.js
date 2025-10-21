@@ -1,4 +1,3 @@
-// src/components/ProductDetails.jsx
 export default function ProductDetails({
   title,
   subtitle,
@@ -8,16 +7,26 @@ export default function ProductDetails({
 }) {
   return (
     <div>
-      <div>
-        <div>
-          <h1>{title}</h1>
-          <p>{subtitle}</p>
+      <div
+        className="bg-center min-h-[250px] bg-no-repeat bg-cover"
+        style={{ backgroundImage: `url(${bgImage})` }}
+      >
+        <div className="p-[5rem] text-white">
+          <div className="px-3">
+            <h1 className="text-3xl font-extrabold mb-3">{title}</h1>
+            <p>{subtitle}</p>
+          </div>
         </div>
       </div>
 
-      <div>
-        <div>
-          <p>{description}</p>
+      <div
+        className="bg-[url('/images/products-page-bg.png')] bg-center bg-no-repeat bg-cover
+ px-[5rem] pt-[5rem] pb-[3rem]"
+      >
+        <div className="px-6 pt-6 pb-10 mt-5 mb-5">
+          <p className="text-gray-700 text-sm whitespace-pre-line leading-relaxed text-justify">
+            {description}
+          </p>
         </div>
       </div>
 
