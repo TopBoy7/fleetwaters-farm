@@ -13,7 +13,7 @@ The breeding, maintenance, slaughter and general subjugation of livestock, calle
 Livestock farming practices have largely shifted to intensive animal farming. [4] Intensive animal farming increases the yield of the various commercial outputs, but also negatively impacts animal welfare, the environment, and public health.[5] In particular, beef, dairy and sheep are an outsized source of greenhouse gas emissions from agriculture.`,
     bgImage: "/images/livestock.jpg",
     subImages: [
-      { src: "/images/cow.png", title: "Cow" },
+      { src: "/images/cows.png", title: "Cow" },
       { src: "/images/pigs.png", title: "Pig" },
       { src: "/images/sheep.png", title: "Sheep" },
       { src: "/images/goat.png", title: "Goat" },
