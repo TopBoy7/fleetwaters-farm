@@ -11,12 +11,12 @@ export default function ContactPage() {
         </div>
       </div>
 
-      <div className="flex pt-5 pb-5 mx-[60px]">
+      <div className="flex pt-12 pb-5 mx-[60px]">
         <div className="flex-1">
           <form className="pe-5 pb-5">
             <div className="border-b border-white/10 pb-12">
-              <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 p-5">
-                <div className="sm:col-span-4">
+              <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 p-12">
+                <div className="sm:col-span-8">
                   <label
                     htmlFor="Type your full name"
                     className="block text-sm/6 font-medium"
@@ -30,12 +30,12 @@ export default function ContactPage() {
                       name="full-name"
                       placeholder="Type your full name"
                       autoComplete="given-name"
-                      className="block w-full rounded-md bg-gray-100 px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray sm:text-sm/6"
+                      className="block w-full rounded-md bg-gray-200 px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray sm:text-sm/6"
                     />
                   </div>
                 </div>
 
-                <div className="sm:col-span-4">
+                <div className="sm:col-span-8">
                   <label
                     htmlFor="email"
                     className="block text-sm/6 font-medium"
@@ -54,7 +54,7 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                <div className="col-span-4">
+                <div className="col-span-8">
                   <label
                     htmlFor="about"
                     className="block text-sm/6 font-medium"
